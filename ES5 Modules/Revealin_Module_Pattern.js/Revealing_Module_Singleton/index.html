@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Revealing Module Pattern</title>
+</head>
+
+<body>
+    <h1>Add Numbers</h1>
+    <input type="number" id="input1"></input>
+    <input type="number" id="input2"></input>
+    <br/>
+    <div id="output"></div>
+    <br/>
+    <button type="button" id="add">Add</button>
+    <button type="button" id="sub">Subtract</button>
+    <script src="./domKing.js"></script>
+    <script src="./arithmetic.js"></script>
+
+    <script src="./app.js"></script>
+</body>
+<style>
+    textarea,
+    input {
+        outline: none;
+    }
+
+    #output {
+        display: inline-block;
+        min-width: 100px;
+        min-height: 35px;
+        width: auto;
+        color: lightcoral;
+        background-color: lightgray;
+
+    }
+</style>
+
+</html>
